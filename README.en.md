@@ -12,7 +12,7 @@
 [![Four Modes](https://img.shields.io/badge/Modes-4-c4573a?style=flat-square)](#four-outputs-not-four-templates)
 [![Raster Output](https://img.shields.io/badge/Output-PNG-2f6f62?style=flat-square)](#boundaries-and-trust)
 
-<a href="README.md">简体中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a> · <a href="README.ar.md">العربية</a>
+<a href="README.md">简体中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
@@ -59,6 +59,27 @@ source photo → lock visual facts → read relation and subtext → choose one 
 </table>
 
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643">View the original post and full notes →</a></p>
+
+### More 016 variations · philosophy and magnetic fields
+
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090727539052302568) · 21 August 2026<br>
+> GPT2 × philosophy × magnetic field × aesthetic prompt × VOL.016 supplement<br>
+> The same principle—one subject, one motion, one vast spatial relation—can produce entirely different fields and emotional registers across photographs.
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPA4PNbAAADM6s.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 additional sample 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPA78IbAAA4Syx.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 additional sample 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPBBkNacAAHjme.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 additional sample 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPBJULaMAALKPF.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 additional sample 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568">View the supplementary post and English prompt →</a></p>
+
+These samples demonstrate the adaptability and aesthetic motive of 016; they do not turn the post's earlier canvas into a current default. The modes still follow the source-adaptive and custom sizing logic below.
 
 ## Four outputs, not four templates
 
@@ -148,7 +169,7 @@ Local composition needs Python 3 and Pillow. The safe bitmap bridge uses Python 
 ```text
 xxd-panel-016/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md / README.ar.md
+├── README.md / README.en.md / README.ja.md / README.ko.md / README.ar.md
 ├── agents/openai.yaml
 ├── assets/banner.svg
 ├── scripts/

@@ -12,7 +12,7 @@
 [![Four Modes](https://img.shields.io/badge/Modes-4-c4573a?style=flat-square)](#四种输出不是四个模板)
 [![Raster Output](https://img.shields.io/badge/Output-PNG-2f6f62?style=flat-square)](#边界与信任)
 
-<strong>简体中文</strong> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ar.md">العربية</a>
+<strong>简体中文</strong> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
@@ -59,6 +59,27 @@ XXD Panel 016 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 </table>
 
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643">查看原推文与完整说明 →</a></p>
+
+### 更多 016 变体 · 哲学与磁场
+
+> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090727539052302568) · 2026-08-21<br>
+> GPT2 × 哲学 × 磁场 × 美学提示词 × VOL.016 补充<br>
+> 同一种“一个主体、一种运动、巨大空间关系”，在不同照片上可以产生完全不同的运动场与情绪。
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPA4PNbAAADM6s.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 补充样张 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPA78IbAAA4Syx.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 补充样张 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPBBkNacAAHjme.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 补充样张 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPBJULaMAALKPF.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 补充样张 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568">查看补充推文与英文提示词 →</a></p>
+
+以上样张用于展示 016 的适应力与美学动机，不会把推文中的旧画幅写成当前 Skill 的默认尺寸；当前模式仍遵循下方的源图自适应与自定义尺寸逻辑。
 
 ## 四种输出，不是四个模板
 
@@ -152,7 +173,7 @@ $xxd-panel-016
 ```text
 xxd-panel-016/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md / README.ar.md
+├── README.md / README.en.md / README.ja.md / README.ko.md / README.ar.md
 ├── agents/openai.yaml
 ├── assets/banner.svg
 ├── scripts/

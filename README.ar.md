@@ -12,7 +12,7 @@
 [![Four Modes](https://img.shields.io/badge/Modes-4-c4573a?style=flat-square)](#أربعة-مخرجات-لا-أربعة-قوالب)
 [![Raster Output](https://img.shields.io/badge/Output-PNG-2f6f62?style=flat-square)](#الحدود-والثقة)
 
-<a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <strong>العربية</strong>
+<a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <strong>العربية</strong>
 
 </div>
 
@@ -61,6 +61,27 @@ XXD Panel 016 هي مهارة لتوليد الصور مخصّصة لـ Codex و
 </table>
 
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643">عرض المنشور الأصلي والملاحظات كاملة ←</a></p>
+
+### تنويعات أخرى لـ 016 · الفلسفة والمجالات المغناطيسية
+
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090727539052302568) · 21 أغسطس 2026<br>
+> GPT2 × فلسفة × مجال مغناطيسي × توجيه جمالي × ملحق VOL.016<br>
+> يمكن للمبدأ نفسه — موضوع واحد، حركة واحدة، وعلاقة مكانية واسعة — أن ينتج مجالات حركية ونبرات شعورية مختلفة تماماً من صورة إلى أخرى.
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPA4PNbAAADM6s.jpg?format=jpg&amp;name=large" alt="نموذج إضافي لـ XXD Panel 016 رقم 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPA78IbAAA4Syx.jpg?format=jpg&amp;name=large" alt="نموذج إضافي لـ XXD Panel 016 رقم 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPBBkNacAAHjme.jpg?format=jpg&amp;name=large" alt="نموذج إضافي لـ XXD Panel 016 رقم 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPBJULaMAALKPF.jpg?format=jpg&amp;name=large" alt="نموذج إضافي لـ XXD Panel 016 رقم 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568">عرض المنشور التكميلي والتوجيه الإنجليزي ←</a></p>
+
+توضح هذه النماذج قدرة 016 على التكيّف ودافعه الجمالي، ولا تجعل مقاس المنشور السابق قيمة افتراضية حالية. وتظل الأنماط خاضعة لمنطق التكيّف مع المصدر والمقاسات المخصّصة أدناه.
 
 ## أربعة مخرجات، لا أربعة قوالب
 
@@ -150,7 +171,7 @@ $xxd-panel-016
 ```text
 xxd-panel-016/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md / README.ar.md
+├── README.md / README.en.md / README.ja.md / README.ko.md / README.ar.md
 ├── agents/openai.yaml
 ├── assets/banner.svg
 ├── scripts/

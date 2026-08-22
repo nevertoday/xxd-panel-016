@@ -12,7 +12,7 @@
 [![Four Modes](https://img.shields.io/badge/Modes-4-c4573a?style=flat-square)](#4つの出力モードは4つのテンプレートではない)
 [![Raster Output](https://img.shields.io/badge/Output-PNG-2f6f62?style=flat-square)](#境界と信頼性)
 
-<a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <strong>日本語</strong> · <a href="README.ar.md">العربية</a>
+<a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <strong>日本語</strong> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
@@ -59,6 +59,27 @@ XXD Panel 016 は、Codex と互換 Agent のための画像生成 Skill です�
 </table>
 
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643">元の投稿と詳しい説明を見る →</a></p>
+
+### さらに広がる 016 · 哲学と磁場
+
+> [小小東（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090727539052302568) · 2026年8月21日<br>
+> GPT2 × 哲学 × 磁場 × 美学プロンプト × VOL.016 補足<br>
+> 「ひとつの被写体、ひとつの運動、巨大な空間関係」という同じ原則が、写真ごとにまったく異なる運動場と感情を生みます。
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPA4PNbAAADM6s.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 追加作例 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPA78IbAAA4Syx.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 追加作例 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPBBkNacAAHjme.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 追加作例 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPBJULaMAALKPF.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 追加作例 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568">補足投稿と英語版プロンプトを見る →</a></p>
+
+これらは 016 の適応力と美学的動機を示す作例です。投稿当時の画面比率を現在の既定値にはしません。各モードは、以下の元画像適応・カスタムサイズ方針に従います。
 
 ## 4つの出力モードは、4つのテンプレートではない
 
@@ -148,7 +169,7 @@ $xxd-panel-016
 ```text
 xxd-panel-016/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md / README.ar.md
+├── README.md / README.en.md / README.ja.md / README.ko.md / README.ar.md
 ├── agents/openai.yaml
 ├── assets/banner.svg
 ├── scripts/
