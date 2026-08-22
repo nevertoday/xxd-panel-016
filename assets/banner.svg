@@ -1,0 +1,86 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>XXD Panel 016</title>
+  <desc>Photo-aware Riso composition with one anchor, one motion, and a large field of air.</desc>
+  <defs>
+    <linearGradient id="paper" x1="40" y1="20" x2="1160" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7EFD9"/>
+      <stop offset="0.58" stop-color="#EFE1C4"/>
+      <stop offset="1" stop-color="#E8D4B4"/>
+    </linearGradient>
+    <pattern id="grain" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="8" r="1.2" fill="#1A2433" fill-opacity="0.13"/>
+      <circle cx="24" cy="4" r="0.8" fill="#C94B38" fill-opacity="0.16"/>
+      <circle cx="39" cy="15" r="1.1" fill="#1A2433" fill-opacity="0.09"/>
+      <circle cx="14" cy="29" r="0.9" fill="#2C6680" fill-opacity="0.14"/>
+      <circle cx="34" cy="39" r="1.3" fill="#C94B38" fill-opacity="0.11"/>
+      <path d="M2 42L9 40M28 24L35 22M42 31L45 30" stroke="#1A2433" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-40%" width="160%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#6D4B35" flood-opacity="0.16"/>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="400" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="400" fill="url(#paper)"/>
+    <rect width="1200" height="400" fill="url(#grain)"/>
+    <circle cx="1044" cy="72" r="188" fill="#C94B38" fill-opacity="0.08"/>
+    <circle cx="1112" cy="348" r="240" fill="#2C6680" fill-opacity="0.07"/>
+    <path d="M694 345C814 309 884 272 941 208C998 143 1045 113 1164 104" stroke="#C94B38" stroke-opacity="0.2" stroke-width="42"/>
+    <path d="M688 333C810 301 872 264 930 200C990 134 1040 104 1170 94" stroke="#C94B38" stroke-width="4"/>
+    <path d="M702 351C822 323 902 288 963 226C1020 168 1084 140 1198 132" stroke="#2C6680" stroke-opacity="0.62" stroke-width="4" stroke-dasharray="2 11"/>
+  </g>
+
+  <rect x="22" y="22" width="1156" height="356" rx="22" stroke="#1A2433" stroke-opacity="0.24"/>
+
+  <g>
+    <rect x="72" y="62" width="202" height="34" rx="17" fill="#1A2433"/>
+    <text x="92" y="84" fill="#F7EFD9" font-family="Arial" font-size="14" font-weight="800" letter-spacing="2">XXD / IMAGE SKILL</text>
+    <text x="70" y="164" fill="#1A2433" font-family="Arial" font-size="65" font-weight="900" letter-spacing="-2">PANEL 016</text>
+    <text x="72" y="210" fill="#C94B38" font-family="Arial" font-size="25" font-weight="850" letter-spacing="1">PHOTO-AWARE RISO COMPOSITION</text>
+    <text x="72" y="249" fill="#34404C" font-family="Arial" font-size="18" font-weight="600">One subject. One motion. A large field of air.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="292" width="142" height="44" rx="8" fill="#F8F1DF" stroke="#1A2433" stroke-opacity="0.22"/>
+    <text x="91" y="320" fill="#1A2433" font-family="Menlo" font-size="14" font-weight="800">2–3 COLOURS</text>
+    <rect x="226" y="292" width="118" height="44" rx="8" fill="#C94B38"/>
+    <text x="246" y="320" fill="#FFF7E5" font-family="Menlo" font-size="14" font-weight="800">4 MODES</text>
+    <rect x="356" y="292" width="190" height="44" rx="8" fill="#2C6680"/>
+    <text x="376" y="320" fill="#F4EAD4" font-family="Menlo" font-size="14" font-weight="800">WALLPAPER PACK</text>
+  </g>
+
+  <g>
+    <circle cx="948" cy="190" r="112" stroke="#2C6680" stroke-width="24" stroke-opacity="0.16"/>
+    <circle cx="948" cy="190" r="112" stroke="#2C6680" stroke-width="3" stroke-dasharray="4 12"/>
+    <path d="M832 250C873 221 904 203 949 188C996 172 1031 145 1062 99" stroke="#C94B38" stroke-width="11" stroke-linecap="round"/>
+    <path d="M835 245C876 215 907 198 950 183C995 168 1028 141 1057 96" stroke="#F7EFD9" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="949" cy="186" r="14" fill="#1A2433"/>
+    <path d="M948 201L937 229L958 244M939 226L918 239M938 220L968 211" stroke="#1A2433" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="919" cy="253" r="20" stroke="#1A2433" stroke-width="5"/>
+    <circle cx="974" cy="253" r="20" stroke="#1A2433" stroke-width="5"/>
+    <path d="M919 253L939 226L974 253L952 218L919 253Z" stroke="#1A2433" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(738 302)">
+    <text x="0" y="-16" fill="#1A2433" fill-opacity="0.62" font-family="Menlo" font-size="11" font-weight="800" letter-spacing="1.5">OUTPUT SYSTEM</text>
+    <g filter="url(#shadow)">
+      <rect width="72" height="52" rx="7" fill="#F9F2DF" stroke="#1A2433" stroke-opacity="0.25"/>
+      <rect x="10" y="8" width="52" height="16" rx="2" fill="#2C6680" fill-opacity="0.35"/>
+      <rect x="10" y="28" width="52" height="16" rx="2" fill="#C94B38"/>
+      <rect x="84" width="72" height="52" rx="7" fill="#F9F2DF" stroke="#1A2433" stroke-opacity="0.25"/>
+      <rect x="94" y="8" width="24" height="36" rx="2" fill="#2C6680" fill-opacity="0.35"/>
+      <rect x="122" y="8" width="24" height="36" rx="2" fill="#C94B38"/>
+      <rect x="168" width="72" height="52" rx="7" fill="#C94B38"/>
+      <circle cx="204" cy="26" r="11" fill="#F7EFD9"/>
+      <path d="M184 38C196 28 207 20 225 13" stroke="#1A2433" stroke-width="3"/>
+      <rect x="252" width="140" height="52" rx="7" fill="#1A2433"/>
+      <rect x="264" y="9" width="19" height="34" rx="3" fill="#F7EFD9"/>
+      <rect x="290" y="7" width="25" height="36" rx="3" fill="#F7EFD9"/>
+      <rect x="322" y="13" width="45" height="30" rx="3" fill="#F7EFD9"/>
+      <rect x="374" y="16" width="7" height="27" rx="2" fill="#C94B38"/>
+    </g>
+  </g>
+</svg>
