@@ -192,3 +192,20 @@ XXD 是小小东的品牌名缩写。本项目由 [@xiaoxiaodong01](https://x.co
 **让运动来自照片，而不是来自模板。**
 
 </div>
+
+---
+
+<div align="center">
+  <h2>☕ 支持这个开源项目</h2>
+  <p>如果这个项目为你节省了时间，欢迎点亮 Star、分享给朋友，或请小小东喝杯咖啡。</p>
+  <table>
+    <tr>
+      <td align="center" width="240">
+        <a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="联系小小东赞赏项目" width="180"></a><br>
+        <strong>中国用户赞赏</strong><br>
+        <sub>扫码添加微信，备注「赞赏」</sub>
+      </td>
+    </tr>
+  </table>
+  <p><sub>赞赏完全自愿，不影响项目的免费使用。</sub></p>
+</div>

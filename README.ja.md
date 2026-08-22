@@ -188,3 +188,20 @@ XXD は Xiaoxiaodong のブランド名を略したものです。このプロ�
 **動きはテンプレートではなく、写真から生まれる。**
 
 </div>
+
+---
+
+<div align="center">
+  <h2>☕ このオープンソースプロジェクトを応援する</h2>
+  <p>このプロジェクトが役立ったら、Star、シェア、またはコーヒー一杯で応援していただけるとうれしいです。</p>
+  <table>
+    <tr>
+      <td align="center" width="240">
+        <a href="https://github.com/nevertoday/zhongguo-traditional-colors/blob/main/docs/images/buy-me-a-coffee-qr.png?raw=true"><img src="https://github.com/nevertoday/zhongguo-traditional-colors/blob/main/docs/images/buy-me-a-coffee-qr.png?raw=true" alt="Buy Me a Coffee で Xiaoxiaodong を応援する" width="180"></a><br>
+        <strong>Buy me a coffee</strong><br>
+        <sub>QR コードを読み取るか開いて、Xiaoxiaodong を応援できます</sub>
+      </td>
+    </tr>
+  </table>
+  <p><sub>支援は任意であり、このオープンソースプロジェクトの利用条件には影響しません。</sub></p>
+</div>
