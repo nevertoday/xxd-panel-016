@@ -41,22 +41,41 @@ XXD Panel 016 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 - **真实印刷感**：网点、纸纤维、干墨、套印偏差和颗粒是结构，不是滤镜贴纸。
 - **文字参与空间**：标题和微型文字沿运动、轴线与留白生长，而不是贴在商业标题框里。
 
+## 样张 · 来自 X
+
+> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 2026-08-19<br>
+> GPT2 × 颗粒 × 磁场 × 版画 × 美学提示词 × VOL.016<br>
+> 图片来自《中国国家地理》· 新疆
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="https://pbs.twimg.com/media/HQGej5TaQAAMDO-.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 样张 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="https://pbs.twimg.com/media/HQGekoCaMAAhjX8.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 样张 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="https://pbs.twimg.com/media/HQGelcbaMAAw0k3.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 样张 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="https://pbs.twimg.com/media/HQGemgnasAAkmlT.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 样张 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643">查看原推文与完整说明 →</a></p>
+
 ## 四种输出，不是四个模板
 
 调用时若没有指定，Skill 会先询问模式。尺寸可以同时给出，精确像素优先。
 
-| 模式 | 默认画布 | 成品 |
+| 模式 | 尺寸逻辑 | 成品 |
 | --- | ---: | --- |
-| `top-bottom` | 3:4 | 原照片在上，016 版画在下，严格等高 |
-| `left-right` | 3:2 | 原照片在左，016 版画在右，严格等宽 |
-| `design-only` | 3:4 | 只保留变化后的完整版画，不显示原照片 |
+| `top-bottom` | 源图自适应 | 原照片在上，016 版画在下，每格保留完整原图尺寸，严格等高 |
+| `left-right` | 源图自适应 | 原照片在左，016 版画在右，每格保留完整原图尺寸，严格等宽 |
+| `design-only` | 源图自适应 | 只保留变化后的完整版画，不显示原照片，沿用源图比例与尺寸 |
 | `wallpaper-pack` | 四种设备尺寸 | 手机、iPad、电脑、儿童手表各一张独立 PNG |
 
 双联模式里的摄影始终保持真实，只允许克制调色和必要的环境延展。单画面与壁纸模式中，原照片只作为内容证据，不出现在成品里。
 
 ### 四端壁纸：独立探索或连贯套装
 
-壁纸套装默认输出：手机 `1440×3200`、iPad `2048×2732`、电脑 `3840×2160`、儿童手表 `1024×1024`，也可以逐设备覆盖尺寸。
+壁纸套装不会静默套用尺寸。选择“常用设备预设”时使用手机 `1440×3200`、iPad `2048×2732`、电脑 `3840×2160`、儿童手表 `1024×1024`；也可以逐设备自定义。
 
 - **连贯套装（推荐）**：先生成并验收 iPad 定调图；另外三张都使用“原照片＋同一张定调图”重新构图。
 - **四张独立**：四张都只参考原照片，允许更自由的构图变化。
@@ -65,7 +84,7 @@ XXD Panel 016 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 
 ## 文字不是装饰，它要让人重新看懂照片
 
-所有模式默认有文字；只有用户明确要求无字时才关闭。
+正式生图前会先确认文字方式：自动文案、自定义文案或无文字。自动／自定义还会确认目标语言或地区；自定义文案可直接输入主标题和可选微型文字。
 
 自动文案先读取表层事实、关系张力与有证据的潜台词，再通过精准命名、反差、低调陈述、双重含义或轻微反转，提炼一个极短标题。标题必须通过“换图测试”：如果放到一张无关照片上仍然成立，就必须重写。
 
@@ -74,7 +93,7 @@ XXD Panel 016 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 语言按目标受众解析，而不是按下指令时的语言机械输出：
 
 ```text
-目标市场／受众地区 > 指定成品语言 > 文案方向语言 > 当前请求语言
+目标市场／受众地区 > 指定成品语言 > 文案方向语言；以上均未明确时，生图前询问
 ```
 
 中文请求中的“日本版”会转创为自然日语，“韩国受众”使用自然韩语，“英国版”使用英式英语。Skill 不会根据人物长相或场景猜国籍，也不会用伪外文制造国际感。
@@ -84,7 +103,7 @@ XXD Panel 016 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 生成模型负责版画；`scripts/compose_panel.py` 只负责画布规划、像素级 50/50 合成、最终尺寸和审计，不用代码假装创作视觉。
 
 ```bash
-python3 scripts/compose_panel.py --plan --layout top-bottom
+python3 scripts/compose_panel.py --plan --layout top-bottom --source photo.png
 python3 scripts/compose_panel.py --plan --layout left-right --size 2560x1440
 python3 scripts/compose_panel.py --audit result.png --layout design-only --size 2048x2048
 ```

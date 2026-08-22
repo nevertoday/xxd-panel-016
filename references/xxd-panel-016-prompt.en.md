@@ -165,16 +165,16 @@ Build a restrained **experimental art-book micro-typography system**.
 
 ### 8.1 Copy mode and user priority
 
-Copy is on by default in every mode, including wallpaper-pack; never omit it merely because the user supplied no wording or because the output is a wallpaper. Before generation, lock a separate copy package for every photo using this priority:
+Copy has no silent default. Before generation, explicitly resolve source-derived automatic copy, user-supplied custom copy, or text-free output; automatic and custom copy also require a target language or locale. Lock a separate copy package for every photo using this priority:
 
 1. **The user explicitly requests no copy, no text, or a purely visual result:** render no letters, characters, numbers, title, caption, or decorative pseudo-text anywhere.
 2. **The user supplies finished wording:** preserve it verbatim without rewriting, translating, adding, or removing words; adapt only size, position, and typographic relationships.
 3. **The user supplies a copy direction, theme, tone, or keywords:** write one definitive version to that direction without presenting alternatives.
-4. **The user supplies no copy guidance:** derive a 016-style title and microcopy from the current photograph in the resolved audience language without asking and without omitting it.
+4. **The user has not resolved copy mode or target language/locale:** stop before image generation and ask one concise preflight question offering automatic copy, custom copy, or text-free output; automatic/custom also require a language or locale. Never guess and continue.
 
 For multiple photos, build an independent copy package for each one. A shared creative direction may govern the batch, but each photo still receives distinct source-aware wording unless the user explicitly requests identical copy.
 
-Resolve copy locale separately from the language used to issue the command. For automatic or direction-led copy, use: **explicit target market/audience locale > explicit output language > language of the supplied direction or draft > current request language**. Thus a Chinese instruction asking for a Japanese edition produces natural Japanese; a Korean-audience request produces natural Korean; and a UK edition uses British English. Never infer nationality, ethnicity, or audience language from a face, name, clothing, scenery, filename, metadata, or visible signage.
+Resolve copy locale separately from the language used to issue the command. For automatic or direction-led copy, use: **explicit target market/audience locale > explicit output language > language of the supplied direction or draft; if none is explicit, ask before generation**. Thus a Chinese instruction asking for a Japanese edition produces natural Japanese; a Korean-audience request produces natural Korean; and a UK edition uses British English. Never infer nationality, ethnicity, or audience language from a face, name, clothing, scenery, filename, metadata, or visible signage.
 
 Localize by transcreation, not word-for-word translation: preserve the semantic core and moment of recognition, then rebuild it through native syntax, register, idiom, punctuation, and line breaking. Japanese uses natural contemporary wording, an appropriate kanji/kana balance, Japanese punctuation, and kinsoku-aware breaks. Korean uses natural contemporary wording, correct spacing, and intact Hangul syllable blocks without decorative pseudo-Hanja. UK English uses British spelling, vocabulary, punctuation, date conventions, and culturally natural understatement rather than American wording. Apply the same native-register principle to every other locale. Finished user copy remains verbatim; when it conflicts with a named target locale and translation/localization permission is unclear, ask one concise clarification.
 
@@ -265,10 +265,10 @@ Remove unused optional lines rather than rendering placeholders. In text-free mo
 
 Lock one mode before generation; when the caller did not provide one, ask before continuing:
 
-1. **TOP_BOTTOM:** source photo above, transformed print below; exact equal height; default final canvas 3:4.
-2. **LEFT_RIGHT:** source photo left, transformed print right; exact equal width; default final canvas 3:2.
-3. **DESIGN_ONLY:** the source remains reference evidence but is not visible; the transformed print fills the entire canvas with no seam; default final canvas 3:4.
-4. **WALLPAPER_PACK:** one source produces four separate transformed wallpapers—phone, iPad, desktop, and watch—with no visible source photo and with the main title and microtext enabled by default. Remove text only on an explicit text-free request. Also lock an `INDEPENDENT` or `LINKED` wallpaper relationship.
+1. **TOP_BOTTOM:** source photo above, transformed print below; exact equal height. With no explicit size, each panel retains the complete source W×H and the final canvas is W×2H.
+2. **LEFT_RIGHT:** source photo left, transformed print right; exact equal width. With no explicit size, each panel retains the complete source W×H and the final canvas is 2W×H.
+3. **DESIGN_ONLY:** the source remains reference evidence but is not visible; the transformed design fills the canvas with no seam. With no explicit size, use the source W×H.
+4. **WALLPAPER_PACK:** one source produces four separate transformed wallpapers—phone, iPad, desktop, and watch—with no visible source photo. Copy follows the preflight choice of automatic, custom, or text-free output. Also lock an `INDEPENDENT` or `LINKED` wallpaper relationship.
 
 User intent selects the mode; canvas orientation must not silently change it. Paired modes stay exact 50/50. Source-hidden modes must not reintroduce the source, a seam, or reserved placeholder space. Wallpaper-pack recomposes every device separately; never mechanically crop or resize one wallpaper into another.
 
@@ -281,7 +281,7 @@ Wallpaper relationship has two values:
 
 ### 9.2 Dimension priority
 
-Resolve dimensions as exact user pixels > user ratio or destination > mode default. Honor exact pixels literally. Top-bottom needs an even total height; left-right needs an even total width. Design-only accepts any positive whole-pixel dimensions. Wallpaper defaults are phone 1440×3200, iPad 2048×2732 portrait, desktop 3840×2160, and watch 1024×1024. A labeled device override changes only that device; never apply one unlabeled pack size arbitrarily. Never silently round a requested exact size.
+Resolve dimensions as exact user pixels > user ratio or destination > source-adaptive sizing. Ordinary modes impose no stock ratio. Honor exact pixels literally. Top-bottom needs an even total height; left-right needs an even total width. Design-only accepts any positive whole-pixel dimensions. Wallpaper-pack requires an explicit choice between the common device preset and labeled custom sizes. Never silently round a requested exact size.
 
 ### 9.3 Prepare assets separately
 
@@ -331,7 +331,7 @@ REFERENCE ROLE: SOURCE ONLY | SOURCE CONTENT + ANCHOR VISUAL DNA
 ## 10. Output limits
 
 - Ordinary modes produce one independent finished image per source; wallpaper-pack produces exactly four separate wallpaper files per source. Never combine them into a collage, grid, or series composite.
-- Every mode defaults to the locked title and 2–4 microtext groups. Remove copy only when the user explicitly requests a text-free result. Include no other words, color swatches, legends, signatures, logos, or watermarks.
+- Copy follows the resolved preflight: automatic or custom copy uses one clearly dominant title and up to two to four microtext groups; when custom copy omits microtext, derive supporting microtext professionally or keep title-only if requested. Text-free mode renders no letters, characters, numbers, or decorative pseudo-text. Include no logo, watermark, signature, palette, legend, frame note, or interface element.
 - Output the finished image only — no analysis, no creative notes, no title options, no parameter lists.
 
 Strictly avoid: photo redrawing, scene reconstruction, visible outpainting seams, a filtered look, posterized photographs, vector tracing, complete illustration, infographics, generic icons, multiple focal points, complex scenes, accumulated ornament, ordinary gradients, CG lighting, 3D finish, commercial poster feel, template feel, stacked motion effects, stiff centered symmetry, and any loss of identity echo between the two halves.
@@ -345,7 +345,7 @@ Before submitting each photo's generation request, confirm internally:
 3. The photographic panel stays faithful in paired modes; design-only and wallpapers contain no source photo, seam, or reserved area.
 4. The transformed print contains one recognizable anchor, exactly one source-derived motion logic, and 60%–78% clean void calculated against its complete frame.
 5. The palette contains only one spirited source color, paper, and optional small black.
-6. Copy mode follows section 8: every mode defaults to locked copy with a clearly dominant title; locale follows audience/market > output language > direction language > request language and is never guessed from identity. Automatic or direction-led copy uses native target-locale language, moves from visible fact to grounded subtext, passes the unrelated-image swap test, and avoids forced cleverness, while finished user copy stays verbatim and is typeset by that language's semantic phrases. Only an explicit text-free request removes all text and pseudo-text.
+6. Copy mode follows section 8: automatic, custom, or text-free output is locked before generation; locale follows audience/market > output language > direction language; if none is explicit, ask before generation and is never guessed from identity. Automatic or direction-led copy uses native target-locale language, moves from visible fact to grounded subtext, passes the unrelated-image swap test, and avoids forced cleverness, while finished user copy stays verbatim and is typeset by that language's semantic phrases. Only an explicit text-free request removes all text and pseudo-text.
 7. The finished bitmap was actually opened and inspected at normal and thumbnail size; anchor, motion, palette, and copy are specific to this source rather than generic decorative abstraction.
 8. All four wallpapers were separately recomposed, match their exact sizes, keep essential content in device-safe regions, and contain no baked-in system UI. `INDEPENDENT` uses only the original photo for all four; `LINKED` approves the anchor first and makes every derivative reference the original photo plus that same anchor, with no sequential drift or mechanical resizing.
 9. The deliverable is a Codex-generated PNG bitmap, not SVG, HTML, Canvas, or programmatic drawing.

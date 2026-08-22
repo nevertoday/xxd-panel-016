@@ -41,22 +41,41 @@ source photo → lock visual facts → read relation and subtext → choose one 
 - **Physical print character:** halftone, fibre, dry ink, grain, and slight misregistration act as structure rather than decoration.
 - **Type as space:** title and microcopy follow motion, axes, and void instead of sitting inside an advertising box.
 
+## Samples · from X
+
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 19 August 2026<br>
+> GPT2 × grain × magnetic field × printmaking × aesthetic prompt × VOL.016<br>
+> Images originally sourced from *Chinese National Geography* · Xinjiang
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="https://pbs.twimg.com/media/HQGej5TaQAAMDO-.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 sample 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="https://pbs.twimg.com/media/HQGekoCaMAAhjX8.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 sample 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="https://pbs.twimg.com/media/HQGelcbaMAAw0k3.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 sample 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="https://pbs.twimg.com/media/HQGemgnasAAkmlT.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 sample 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643">View the original post and full notes →</a></p>
+
 ## Four outputs, not four templates
 
 If no mode is specified, the skill asks first. Dimensions may be supplied in the same reply; exact pixels take priority.
 
-| Mode | Default canvas | Deliverable |
+| Mode | Sizing logic | Deliverable |
 | --- | ---: | --- |
-| `top-bottom` | 3:4 | original photo above, 016 print below, exact 50/50 split |
-| `left-right` | 3:2 | original photo left, 016 print right, exact 50/50 split |
-| `design-only` | 3:4 | one full transformed print with no visible source photo |
+| `top-bottom` | source-adaptive | original photo above, 016 print below, each panel retains the complete source size; exact 50/50 split |
+| `left-right` | source-adaptive | original photo left, 016 print right, each panel retains the complete source size; exact 50/50 split |
+| `design-only` | source-adaptive | one full transformed print with no visible source photo; retains the source ratio and dimensions |
 | `wallpaper-pack` | four device sizes | separate phone, iPad, desktop, and watch PNGs |
 
 Photography in paired modes remains truthful, with only restrained grading and necessary environmental extension. In design-only and wallpaper modes, the photograph remains evidence but does not appear in the finished image.
 
 ### Wallpaper packs: independent or linked
 
-Defaults are phone `1440×3200`, iPad `2048×2732`, desktop `3840×2160`, and watch `1024×1024`. Each may be overridden independently.
+Wallpaper-pack has no silent size default. Choose the common device preset—phone `1440×3200`, iPad `2048×2732`, desktop `3840×2160`, watch `1024×1024`—or provide labeled custom sizes.
 
 - **Linked pack (recommended):** generate and approve the iPad anchor first; every other device receives the original photo plus that same anchor and is recomposed for its own canvas.
 - **Independent set:** every device receives only the original photograph and may explore more freely.
@@ -65,7 +84,7 @@ Both options return four separate files. A linked pack is not one master image c
 
 ## Copy should make the photograph click
 
-Copy is on by default in every mode and disappears only on an explicit text-free request.
+Before generation, choose automatic copy, custom copy, or text-free output, and name the target language or locale for the first two. Custom copy accepts an exact title plus optional microtext.
 
 Automatic copy reads literal fact, relational tension, and grounded subtext. It then uses precise naming, contrast, understatement, double meaning, or a slight reversal to produce an extremely short title. The title must pass the unrelated-image swap test: if it works just as well on another photograph, it must be rewritten.
 
@@ -74,7 +93,7 @@ Finished user wording remains verbatim. A direction or editable draft is refined
 Language follows the intended audience rather than the language used to issue the command:
 
 ```text
-target market or audience > requested output language > direction language > request language
+target market or audience > requested output language > direction language; if none is explicit, ask before generation
 ```
 
 A Chinese request for a Japanese edition produces natural Japanese; a Korean-audience request uses natural Korean; a UK edition uses British English. The skill never guesses nationality from a face or scene and never uses pseudo-foreign text for atmosphere.
@@ -84,7 +103,7 @@ A Chinese request for a Japanese edition produces natural Japanese; a Korean-aud
 The image model creates the print. `scripts/compose_panel.py` only plans canvases, performs exact 50/50 raster composition, finalises dimensions, and audits results. It does not fake artwork with programmatic drawing.
 
 ```bash
-python3 scripts/compose_panel.py --plan --layout top-bottom
+python3 scripts/compose_panel.py --plan --layout top-bottom --source photo.png
 python3 scripts/compose_panel.py --plan --layout left-right --size 2560x1440
 python3 scripts/compose_panel.py --audit result.png --layout design-only --size 2048x2048
 ```
