@@ -136,9 +136,9 @@ xxd-panel-016/
     └── 016-source.md
 ```
 
-## Acknowledgements
+## About XXD
 
-The multilingual navigation and README information architecture draw inspiration from [Gathered Scenes Zine](https://github.com/Zeejay0/gathered-scenes-zine-skill), [Photo Abstract Editorial](https://github.com/ZzzLc0405/photo-abstract-editorial), and [Awesome GPT Image 2](https://github.com/freestylefly/awesome-gpt-image-2). The 016 visual system, modes, and execution rules remain independent.
+XXD is the abbreviated brand name of Xiaoxiaodong. This project is created and maintained by [@xiaoxiaodong01](https://x.com/xiaoxiaodong01).
 
 <div align="center">
 

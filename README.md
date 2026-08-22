@@ -140,9 +140,9 @@ xxd-panel-016/
     └── 016-source.md
 ```
 
-## 致谢
+## 关于 XXD
 
-README 的多语言导航与项目叙事方式参考了 [Gathered Scenes Zine](https://github.com/Zeejay0/gathered-scenes-zine-skill)、[Photo Abstract Editorial](https://github.com/ZzzLc0405/photo-abstract-editorial) 与 [Awesome GPT Image 2](https://github.com/freestylefly/awesome-gpt-image-2)。016 的视觉系统、模式和执行规范保持独立。
+XXD 是小小东的品牌名缩写。本项目由 [@xiaoxiaodong01](https://x.com/xiaoxiaodong01) 创作与维护。
 
 <div align="center">
 
