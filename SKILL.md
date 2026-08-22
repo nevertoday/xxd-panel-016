@@ -18,7 +18,7 @@ Turn every supplied photograph into finished artwork. The selected mode may show
 - The transformed design region is a photo-derived Riso/silkscreen field: one small recognizable anchor, one subject-derived motion logic, and 60%–78% clean void. It is not a trace, realistic painting, clean vector scene, or unrelated abstraction.
 - Use a strict 2–3 color system derived from the source: one spirited source color, warm paper, and optional small black.
 - Copy has no silent default. Before generation, resolve one explicit choice: source-derived automatic copy, user-supplied exact copy, or text-free output. Automatic or direction-led copy contains one main title and 2–4 microtext groups. Custom copy requires an exact main title; user microtext is optional, and supporting microtext may be professionally derived unless the user explicitly requests title-only.
-- Resolve copy locale independently from the language used to issue the command. Use this priority for automatic or direction-led copy: explicit target market/audience locale > explicit output language > language of the supplied direction; if none is explicit, ask before generation. Never infer audience language, nationality, or ethnicity from a face, name, clothing, scenery, filename, metadata, or visible signage. Localize by transcreation—native wording, register, rhetoric, punctuation, and line breaking—not literal translation or foreign-looking pseudo-text. Preserve exact finished copy verbatim unless the user explicitly asks to translate/localize it; if exact wording conflicts with an explicitly named target locale and permission is unclear, ask one concise clarification before generation.
+- Resolve copy locale independently from the language used to issue the command. Use this priority for automatic or direction-led copy: explicit target market/audience locale > explicit output language > language of the supplied direction; if none is explicit, ask before generation. Never infer audience language, nationality, or ethnicity from a face, name, clothing, scenery, filename, metadata, or visible signage. Localize by transcreation—native wording, register, rhetoric, punctuation, and line breaking—not literal translation or foreign-looking pseudo-text. Arabic output uses natural Modern Standard Arabic unless the user names a regional variety; preserve connected letterforms, right-to-left reading order, Arabic punctuation, semantic line breaks, and deliberate handling of embedded Latin text or numerals. Do not mirror the artwork indiscriminately: reverse text flow and typographic alignment while keeping source-derived subject direction and composition intentional. Preserve exact finished copy verbatim unless the user explicitly asks to translate/localize it; if exact wording conflicts with an explicitly named target locale and permission is unclear, ask one concise clarification before generation.
 - Render no logo, watermark, signature, color swatch, UI chrome, mockup frame, or unrelated explanatory prose.
 
 ## Aesthetic motive lock
@@ -103,7 +103,7 @@ Do not downgrade a new generation request into validation of an old artifact. If
       请直接输入主标题、可选微型文字，并注明语言或地区
    3. 无文字
 
-   示例：1｜日语（日本）
+   示例：1｜阿拉伯语（现代标准阿拉伯语）
    示例：2｜英式英语｜主标题：STAY CLOSE｜微型文字：...
    ```
 
@@ -188,7 +188,7 @@ Then append the locked copy package:
 ```text
 COPY MODE: REQUIRED
 COPY ORIGIN: USER_EXACT | USER_DIRECTION | SOURCE_DERIVED
-COPY LOCALE: <resolved locale, such as ja-JP | ko-KR | en-GB | zh-CN>
+COPY LOCALE: <resolved locale, such as ar | ja-JP | ko-KR | en-GB | zh-CN>
 COPY INTENT — INSTRUCTION ONLY, NEVER RENDER: <one concise semantic core and intended emotional turn>
 MAIN TITLE: <locked exact string>
 MICROTEXT 1: <locked exact string>
@@ -230,7 +230,7 @@ Before accepting each result, verify all of the following:
 - `top-bottom` has a clean horizontal seam at exactly half height; `left-right` has a clean vertical seam at exactly half width; `design-only` and all wallpaper files contain no seam or visible source photo.
 - In paired modes, the photographic panel remains recognizably the original source, appears in the correct upper/left position, and contains no deformation or typography.
 - The design anchor is unmistakably the same subject, keeps only its essential contour and posture, occupies roughly 12%–26% of the design-frame width, and does not compete with a second focal subject. The watch wallpaper exception is 24%–40% so it remains readable on a very small display.
-- Automatic or direction-led copy expresses a visible fact plus a grounded relational or latent meaning, passes the unrelated-photo swap test, and earns its emotional turn without a forced pun or invented backstory. Its language matches the resolved target locale rather than the command language or presumed identity: Japanese reads as native Japanese, Korean as native Korean, and UK English uses British conventions. Exact user copy remains verbatim and its hierarchy, script shaping, punctuation, line breaks, and placement preserve the intended emphasis; editable user direction is transcreated only within the permission given.
+- Automatic or direction-led copy expresses a visible fact plus a grounded relational or latent meaning, passes the unrelated-photo swap test, and earns its emotional turn without a forced pun or invented backstory. Its language matches the resolved target locale rather than the command language or presumed identity: Arabic reads as native Arabic with connected shaping and RTL composition, Japanese as native Japanese, Korean as native Korean, and UK English uses British conventions. Exact user copy remains verbatim and its hierarchy, script shaping, punctuation, line breaks, and placement preserve the intended emphasis; editable user direction is transcreated only within the permission given.
 - Exactly one source-derived motion logic organizes the field. Lines, broken trajectories, halftone, and grain become denser near the core and dissolve toward the edges.
 - Roughly 60%–78% of the transformed design frame remains clean void; the anchor has not been enlarged merely to fill space. In every source-hidden mode, calculate this against the full canvas.
 - The transformed construction reads as hand-printed Riso/silkscreen through paper fiber, uneven ink, halftone, and slight misregistration—not gradients, glow, CG volume, or vector polish.

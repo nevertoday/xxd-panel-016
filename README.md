@@ -12,7 +12,7 @@
 [![Four Modes](https://img.shields.io/badge/Modes-4-c4573a?style=flat-square)](#四种输出不是四个模板)
 [![Raster Output](https://img.shields.io/badge/Output-PNG-2f6f62?style=flat-square)](#边界与信任)
 
-<strong>简体中文</strong> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a>
+<strong>简体中文</strong> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
@@ -96,7 +96,7 @@ XXD Panel 016 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 目标市场／受众地区 > 指定成品语言 > 文案方向语言；以上均未明确时，生图前询问
 ```
 
-中文请求中的“日本版”会转创为自然日语，“韩国受众”使用自然韩语，“英国版”使用英式英语。Skill 不会根据人物长相或场景猜国籍，也不会用伪外文制造国际感。
+中文请求中的“日本版”会转创为自然日语，“韩国受众”使用自然韩语，“英国版”使用英式英语，“阿拉伯语版”使用自然的现代标准阿拉伯语与从右到左排版。Skill 不会根据人物长相或场景猜国籍，也不会用伪外文制造国际感。
 
 ## 精确布局交给脚本，审美判断留给生图
 
@@ -152,7 +152,7 @@ $xxd-panel-016
 ```text
 xxd-panel-016/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md
+├── README.md / README.en.md / README.ja.md / README.ar.md
 ├── agents/openai.yaml
 ├── assets/banner.svg
 ├── scripts/

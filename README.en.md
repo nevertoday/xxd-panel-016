@@ -12,7 +12,7 @@
 [![Four Modes](https://img.shields.io/badge/Modes-4-c4573a?style=flat-square)](#four-outputs-not-four-templates)
 [![Raster Output](https://img.shields.io/badge/Output-PNG-2f6f62?style=flat-square)](#boundaries-and-trust)
 
-<a href="README.md">简体中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a>
+<a href="README.md">简体中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
@@ -96,7 +96,7 @@ Language follows the intended audience rather than the language used to issue th
 target market or audience > requested output language > direction language; if none is explicit, ask before generation
 ```
 
-A Chinese request for a Japanese edition produces natural Japanese; a Korean-audience request uses natural Korean; a UK edition uses British English. The skill never guesses nationality from a face or scene and never uses pseudo-foreign text for atmosphere.
+A Chinese request for a Japanese edition produces natural Japanese; a Korean-audience request uses natural Korean; a UK edition uses British English; and an Arabic edition uses natural Modern Standard Arabic with genuine right-to-left composition. The skill never guesses nationality from a face or scene and never uses pseudo-foreign text for atmosphere.
 
 ## Exact geometry belongs to code; art direction belongs to image generation
 
@@ -148,7 +148,7 @@ Local composition needs Python 3 and Pillow. The safe bitmap bridge uses Python 
 ```text
 xxd-panel-016/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md
+├── README.md / README.en.md / README.ja.md / README.ar.md
 ├── agents/openai.yaml
 ├── assets/banner.svg
 ├── scripts/
