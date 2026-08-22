@@ -210,7 +210,7 @@ Choose either activation route:
 
 <div align="center">
 
-**Let motion come from the photograph, not the template.**
+**Understand what is truly happening in the photograph, then let the design grow from it.**
 
 </div>
 
