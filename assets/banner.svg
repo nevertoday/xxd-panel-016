@@ -1,6 +1,6 @@
 <svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
   <title>XXD Panel 016</title>
-  <desc>Photo-aware Riso composition with one anchor, one motion, and a large field of air.</desc>
+  <desc>Photo-aware Riso composition / 照片感知版画 / 写真を読むリソグラフ — one subject, one motion, and a large field of air.</desc>
   <defs>
     <linearGradient id="paper" x1="40" y1="20" x2="1160" y2="380" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F7EFD9"/>
@@ -39,8 +39,9 @@
     <rect x="72" y="62" width="202" height="34" rx="17" fill="#1A2433"/>
     <text x="92" y="84" fill="#F7EFD9" font-family="Arial" font-size="14" font-weight="800" letter-spacing="2">XXD / IMAGE SKILL</text>
     <text x="70" y="164" fill="#1A2433" font-family="Arial" font-size="65" font-weight="900" letter-spacing="-2">PANEL 016</text>
-    <text x="72" y="210" fill="#C94B38" font-family="Arial" font-size="25" font-weight="850" letter-spacing="1">PHOTO-AWARE RISO COMPOSITION</text>
-    <text x="72" y="249" fill="#34404C" font-family="Arial" font-size="18" font-weight="600">One subject. One motion. A large field of air.</text>
+    <text x="72" y="207" fill="#C94B38" font-family="Arial" font-size="20" font-weight="850" letter-spacing="0.8">PHOTO-AWARE RISO · ONE SUBJECT · ONE MOTION</text>
+    <text x="72" y="237" fill="#34404C" font-family="sans-serif" font-size="18" font-weight="700" letter-spacing="0.5">照片感知版画 · 一个主体 · 一种运动 · 大片留白</text>
+    <text x="72" y="264" fill="#34404C" fill-opacity="0.82" font-family="sans-serif" font-size="16" font-weight="650" letter-spacing="0.35">写真を読むリソグラフ · 一つの被写体 · 一つの運動 · 大きな余白</text>
   </g>
 
   <g filter="url(#shadow)">
