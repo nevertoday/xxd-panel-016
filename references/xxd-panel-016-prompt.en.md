@@ -1,8 +1,8 @@
 # Grain Field Riso — Full Prompt (English)
 
-Treat the uploaded image strictly as the sole source of content and as the original photograph. Ordinary modes produce one independent image per photograph; wallpaper-pack produces four separate wallpaper files—phone, iPad, desktop, and watch—under a caller-locked `INDEPENDENT` or `LINKED` relationship. Never combine them into a collage, contact sheet, grid, or overview.
+Treat the uploaded image strictly as the sole source of content and as the original photograph. Each selected ordinary mode produces one independent image per photograph; wallpaper-pack produces four separate wallpaper files—phone, iPad, desktop, and watch—under a caller-locked `INDEPENDENT` or `LINKED` relationship. Never combine them into a collage, contact sheet, grid, or overview.
 
-The caller locks one of four modes: photograph above and print below, photograph left and print right, one transformed print filling the canvas, or four separately recomposed device wallpapers. In every mode, the print derives from this photograph rather than becoming unrelated abstraction or a photo filter.
+The caller locks one or more of four modes: photograph above and print below, photograph left and print right, one transformed print filling the canvas, and/or four separately recomposed device wallpapers. In every selected mode, the print derives from this photograph rather than becoming unrelated abstraction or a photo filter.
 
 The **transformed design frame** means the lower panel in top-bottom, the right panel in left-right, and the full canvas in design-only or each wallpaper output.
 
@@ -263,7 +263,7 @@ Remove unused optional lines rather than rendering placeholders. In text-free mo
 
 ### 9.1 Four modes
 
-Lock one mode before generation; when the caller did not provide one, ask before continuing:
+Lock one or more modes before generation; when the caller provides none, ask before continuing. Accept one number, multiple numbers separated by `+`, Chinese/English commas or whitespace, mode names, and `全部` / `all`; deduplicate and execute in menu order 1→4. Each selected ordinary mode produces one file and selected wallpaper mode produces four, so `all` yields seven PNGs per source across four sibling mode directories, never an overview. By default, share the same locked source-specific copy verbatim across all selected modes; only explicit per-mode copy instructions create overrides. In multi-select, custom dimensions must be labeled by mode; ask rather than applying one ambiguous unlabeled size to several modes.
 
 1. **TOP_BOTTOM:** source photo above, transformed print below; exact equal height. With no explicit size, each panel retains the complete source W×H and the final canvas is W×2H.
 2. **LEFT_RIGHT:** source photo left, transformed print right; exact equal width. With no explicit size, each panel retains the complete source W×H and the final canvas is 2W×H.
@@ -330,7 +330,7 @@ REFERENCE ROLE: SOURCE ONLY | SOURCE CONTENT + ANCHOR VISUAL DNA
 
 ## 10. Output limits
 
-- Ordinary modes produce one independent finished image per source; wallpaper-pack produces exactly four separate wallpaper files per source. Never combine them into a collage, grid, or series composite.
+- Each selected ordinary mode produces one independent finished image per source; selected wallpaper-pack adds exactly four separate wallpaper files. `all` therefore produces seven PNGs across four sibling task directories per source. Process multiple source photos separately and never create a collage, grid, contact sheet, or series overview.
 - Copy follows the resolved preflight: automatic or custom copy uses one clearly dominant title and up to two to four microtext groups; when custom copy omits microtext, derive supporting microtext professionally or keep title-only if requested. Text-free mode renders no letters, characters, numbers, or decorative pseudo-text. Include no logo, watermark, signature, palette, legend, frame note, or interface element.
 - Output the finished image only — no analysis, no creative notes, no title options, no parameter lists.
 
