@@ -49,12 +49,12 @@ source photo → lock visual facts → read relation and subtext → choose one 
 
 <table>
   <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="https://pbs.twimg.com/media/HQGej5TaQAAMDO-.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 sample 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="https://pbs.twimg.com/media/HQGekoCaMAAhjX8.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 sample 2"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 016 sample 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 016 sample 2"></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="https://pbs.twimg.com/media/HQGelcbaMAAw0k3.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 sample 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="https://pbs.twimg.com/media/HQGemgnasAAkmlT.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 sample 4"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 016 sample 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 016 sample 4"></a></td>
   </tr>
 </table>
 
@@ -68,12 +68,12 @@ source photo → lock visual facts → read relation and subtext → choose one 
 
 <table>
   <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPA4PNbAAADM6s.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 additional sample 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPA78IbAAA4Syx.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 additional sample 2"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-01.jpg" alt="XXD Panel 016 additional sample 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-02.jpg" alt="XXD Panel 016 additional sample 2"></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPBBkNacAAHjme.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 additional sample 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="https://pbs.twimg.com/media/HQPBJULaMAALKPF.jpg?format=jpg&amp;name=large" alt="XXD Panel 016 additional sample 4"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-03.jpg" alt="XXD Panel 016 additional sample 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-04.jpg" alt="XXD Panel 016 additional sample 4"></a></td>
   </tr>
 </table>
 
