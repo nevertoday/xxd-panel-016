@@ -1,4 +1,4 @@
 interface:
-  display_name: "xxd-panel-016"
+  display_name: "/xxd-panel-016"
   short_description: "Create photo–Riso panels, solo artwork, or wallpaper packs."
   default_prompt: "Use $xxd-panel-016 to ask for one or more output modes and the copy/language preference, preserve source-adaptive dimensions unless I specify per-mode sizes, then transform each supplied photo into grain-field Riso artwork."
