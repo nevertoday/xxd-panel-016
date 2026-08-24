@@ -62,7 +62,18 @@ The photograph supplies the facts. 016 decides which motion deserves to remain.
 
 These samples demonstrate the adaptability and aesthetic motive of 016; they do not turn the post's earlier canvas into a current default. The modes still follow the explicit pre-generation canvas and custom sizing logic below.
 
-## Why it exists
+<!-- xxd-panel-benefit:start -->
+## Quick fit check: is XXD Panel 016 right for you?
+
+| What you need to know | What this style gives you |
+|---|---|
+| **What you will get** | Compress what truly happens in a photograph into one anchor and one field of motion |
+| **Recognizable signature** | ONE SUBJECT · ONE MOTION · A LARGE FIELD OF AIR |
+| **How it respects your source** | Recognizable identity, relationships, structure, and supplied facts stay anchored. Styling reorganizes the visual language instead of replacing your content with an unrelated template. |
+| **Where you can use it** | Create top-bottom, left-right, design-only, and four-device wallpaper outputs in multiple ratios or exact sizes. Delivery changes; the Panel's style identity does not get diluted. |
+<!-- xxd-panel-benefit:end -->
+
+## How it turns your source into a distinctive result
 
 Generic style transfer often makes unrelated photographs look like the same decorative poster. A real subject becomes a stock sun, wave, ring, or geometric icon; the palette stops belonging to the source; the title could be reused on any image.
 
@@ -72,7 +83,7 @@ Generic style transfer often makes unrelated photographs look like the same deco
 source photo → lock visual facts → read relation and subtext → choose one motion → generate print → compose and inspect
 ```
 
-## The 016 visual contract
+## What makes the finished style recognizable
 
 - **One anchor:** a small recognisable core, with no competing second subject.
 - **One motion:** falling, rising, flowing, radiating, or ripple/echo—never a stack of effects.
