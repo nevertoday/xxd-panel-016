@@ -22,25 +22,6 @@ XXD Panel 016 is an image-generation skill for Codex and compatible agents. It d
 
 The photograph supplies the facts. 016 decides which motion deserves to remain.
 
-## Why it exists
-
-Generic style transfer often makes unrelated photographs look like the same decorative poster. A real subject becomes a stock sun, wave, ring, or geometric icon; the palette stops belonging to the source; the title could be reused on any image.
-
-016 works in the opposite direction. It locks one small but recognisable visual anchor, then derives exactly one motion logic from posture, light, or spatial relation. The result may be minimal, but it must retain evidence that could only have come from this photograph.
-
-```text
-source photo → lock visual facts → read relation and subtext → choose one motion → generate print → compose and inspect
-```
-
-## The 016 visual contract
-
-- **One anchor:** a small recognisable core, with no competing second subject.
-- **One motion:** falling, rising, flowing, radiating, or ripple/echo—never a stack of effects.
-- **Active void:** normally 60%–78% open paper, so stillness and movement can coexist.
-- **Source-derived colour:** one dominant source colour, warm paper, and optional black; 2–3 colours in total.
-- **Physical print character:** halftone, fibre, dry ink, grain, and slight misregistration act as structure rather than decoration.
-- **Type as space:** title and microcopy follow motion, axes, and void instead of sitting inside an advertising box.
-
 ## Samples · from X
 
 > [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 19 August 2026<br>
@@ -80,6 +61,25 @@ source photo → lock visual facts → read relation and subtext → choose one 
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568">View the supplementary post and English prompt →</a></p>
 
 These samples demonstrate the adaptability and aesthetic motive of 016; they do not turn the post's earlier canvas into a current default. The modes still follow the explicit pre-generation canvas and custom sizing logic below.
+
+## Why it exists
+
+Generic style transfer often makes unrelated photographs look like the same decorative poster. A real subject becomes a stock sun, wave, ring, or geometric icon; the palette stops belonging to the source; the title could be reused on any image.
+
+016 works in the opposite direction. It locks one small but recognisable visual anchor, then derives exactly one motion logic from posture, light, or spatial relation. The result may be minimal, but it must retain evidence that could only have come from this photograph.
+
+```text
+source photo → lock visual facts → read relation and subtext → choose one motion → generate print → compose and inspect
+```
+
+## The 016 visual contract
+
+- **One anchor:** a small recognisable core, with no competing second subject.
+- **One motion:** falling, rising, flowing, radiating, or ripple/echo—never a stack of effects.
+- **Active void:** normally 60%–78% open paper, so stillness and movement can coexist.
+- **Source-derived colour:** one dominant source colour, warm paper, and optional black; 2–3 colours in total.
+- **Physical print character:** halftone, fibre, dry ink, grain, and slight misregistration act as structure rather than decoration.
+- **Type as space:** title and microcopy follow motion, axes, and void instead of sitting inside an advertising box.
 
 ## The original brief is authoritative
 
