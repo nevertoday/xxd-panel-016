@@ -16,17 +16,7 @@
 
 </div>
 
-> ONE SUBJECT · ONE MOTION · A LARGE FIELD OF AIR
-
-XXD Panel 016 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它不把照片套进固定滤镜，而是先阅读主体、姿态、方向、光线、距离和没有说完的关系，再把这些事实压缩成一张粗粝、克制、可追溯的 Riso／丝网印刷作品。
-
-照片提供事实。016 决定哪一种运动值得被留下。
-
 ## 样张 · 来自 X
-
-> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 2026-08-19<br>
-> GPT2 × 颗粒 × 磁场 × 版画 × 美学提示词 × VOL.016<br>
-> 图片来自《中国国家地理》· 新疆
 
 <table>
   <tr>
@@ -38,6 +28,10 @@ XXD Panel 016 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
     <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 016 样张 4"></a></td>
   </tr>
 </table>
+
+> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 2026-08-19<br>
+> GPT2 × 颗粒 × 磁场 × 版画 × 美学提示词 × VOL.016<br>
+> 图片来自《中国国家地理》· 新疆
 
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643">查看原推文与完整说明 →</a></p>
 
@@ -61,6 +55,12 @@ XXD Panel 016 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568">查看补充推文与英文提示词 →</a></p>
 
 以上样张用于展示 016 的适应力与美学动机，不会把推文中的旧画幅写成当前 Skill 的默认尺寸；当前模式仍遵循下方的生成前明确画幅与自定义尺寸逻辑。
+
+> ONE SUBJECT · ONE MOTION · A LARGE FIELD OF AIR
+
+XXD Panel 016 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它不把照片套进固定滤镜，而是先阅读主体、姿态、方向、光线、距离和没有说完的关系，再把这些事实压缩成一张粗粝、克制、可追溯的 Riso／丝网印刷作品。
+
+照片提供事实。016 决定哪一种运动值得被留下。
 
 <!-- xxd-panel-benefit:start -->
 ## 快速判断：XXD Panel 016 适合你吗？

@@ -16,17 +16,7 @@
 
 </div>
 
-> ONE SUBJECT · ONE MOTION · A LARGE FIELD OF AIR
-
-XXD Panel 016 は、Codex と互換 Agent のための画像生成 Skill です。写真に固定フィルターを重ねるのではありません。被写体、姿勢、方向、光、距離、そして言葉になりきらない関係を読み取り、その証拠を、抑制の効いた触覚的なリソグラフ／シルクスクリーン作品へ圧縮します。
-
-事実を与えるのは写真です。何の動きを残すべきかを決めるのが 016 です。
-
 ## 作例 · X より
-
-> [小小東（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 2026年8月19日<br>
-> GPT2 × 粒子 × 磁場 × 版画 × 美学プロンプト × VOL.016<br>
-> 画像出典：『中国国家地理』· 新疆
 
 <table>
   <tr>
@@ -38,6 +28,10 @@ XXD Panel 016 は、Codex と互換 Agent のための画像生成 Skill です�
     <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 016 作例 4"></a></td>
   </tr>
 </table>
+
+> [小小東（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 2026年8月19日<br>
+> GPT2 × 粒子 × 磁場 × 版画 × 美学プロンプト × VOL.016<br>
+> 画像出典：『中国国家地理』· 新疆
 
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643">元の投稿と詳しい説明を見る →</a></p>
 
@@ -61,6 +55,12 @@ XXD Panel 016 は、Codex と互換 Agent のための画像生成 Skill です�
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568">補足投稿と英語版プロンプトを見る →</a></p>
 
 これらは 016 の適応力と美学的動機を示す作例です。投稿当時の画面比率を現在の既定値にはしません。各モードは、以下の生成前に画角を明示するカスタムサイズ方針に従います。
+
+> ONE SUBJECT · ONE MOTION · A LARGE FIELD OF AIR
+
+XXD Panel 016 は、Codex と互換 Agent のための画像生成 Skill です。写真に固定フィルターを重ねるのではありません。被写体、姿勢、方向、光、距離、そして言葉になりきらない関係を読み取り、その証拠を、抑制の効いた触覚的なリソグラフ／シルクスクリーン作品へ圧縮します。
+
+事実を与えるのは写真です。何の動きを残すべきかを決めるのが 016 です。
 
 <!-- xxd-panel-benefit:start -->
 ## すぐに判断：XXD Panel 016 はあなたに合う？

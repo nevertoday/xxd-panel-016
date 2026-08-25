@@ -16,17 +16,7 @@
 
 </div>
 
-> 하나의 주제 · 하나의 움직임 · 넓게 숨 쉬는 여백
-
-XXD Panel 016은 Codex와 호환 에이전트를 위한 이미지 생성 Skill입니다. 사진 위에 고정된 필터를 씌우지 않습니다. 피사체, 자세, 방향, 빛, 거리, 아직 끝나지 않은 관계를 읽고, 그 근거를 절제된 촉감의 리소그래프 또는 실크스크린 구성으로 압축합니다.
-
-사진은 사실을 제공하고, 016은 그중 어떤 움직임을 남길지 결정합니다.
-
 ## X에서 가져온 예시
-
-> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 2026년 8월 19일<br>
-> GPT2 × 입자 × 자기장 × 판화 × 미학 프롬프트 × VOL.016<br>
-> 원본 이미지는 《중국국가지리》의 신장 지역 사진에서 가져왔습니다.
 
 <table>
   <tr>
@@ -38,6 +28,10 @@ XXD Panel 016은 Codex와 호환 에이전트를 위한 이미지 생성 Skill�
     <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 016 예시 4"></a></td>
   </tr>
 </table>
+
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 2026년 8월 19일<br>
+> GPT2 × 입자 × 자기장 × 판화 × 미학 프롬프트 × VOL.016<br>
+> 원본 이미지는 《중국국가지리》의 신장 지역 사진에서 가져왔습니다.
 
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643">원문 게시물과 전체 설명 보기 →</a></p>
 
@@ -61,6 +55,12 @@ XXD Panel 016은 Codex와 호환 에이전트를 위한 이미지 생성 Skill�
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568">보충 게시물과 영문 프롬프트 보기 →</a></p>
 
 이 예시들은 016의 적응력과 미학적 동기를 보여 줄 뿐, 게시물에서 사용한 과거 캔버스를 현재의 기본 크기로 만들지 않습니다. 아래 네 모드는 계속해서 생성 전 화면비 확인 및 사용자 지정 크기 규칙을 따릅니다.
+
+> 하나의 주제 · 하나의 움직임 · 넓게 숨 쉬는 여백
+
+XXD Panel 016은 Codex와 호환 에이전트를 위한 이미지 생성 Skill입니다. 사진 위에 고정된 필터를 씌우지 않습니다. 피사체, 자세, 방향, 빛, 거리, 아직 끝나지 않은 관계를 읽고, 그 근거를 절제된 촉감의 리소그래프 또는 실크스크린 구성으로 압축합니다.
+
+사진은 사실을 제공하고, 016은 그중 어떤 움직임을 남길지 결정합니다.
 
 <!-- xxd-panel-benefit:start -->
 ## 빠른 판단: XXD Panel 016이 나에게 맞을까요?

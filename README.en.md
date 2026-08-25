@@ -16,17 +16,7 @@
 
 </div>
 
-> ONE SUBJECT · ONE MOTION · A LARGE FIELD OF AIR
-
-XXD Panel 016 is an image-generation skill for Codex and compatible agents. It does not place a photograph under a fixed filter. It reads the subject, posture, direction, light, distance, and unfinished relationship, then compresses that evidence into a restrained, tactile Riso or screen-printed composition.
-
-The photograph supplies the facts. 016 decides which motion deserves to remain.
-
 ## Samples · from X
-
-> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 19 August 2026<br>
-> GPT2 × grain × magnetic field × printmaking × aesthetic prompt × VOL.016<br>
-> Images originally sourced from *Chinese National Geography* · Xinjiang
 
 <table>
   <tr>
@@ -38,6 +28,10 @@ The photograph supplies the facts. 016 decides which motion deserves to remain.
     <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 016 sample 4"></a></td>
   </tr>
 </table>
+
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 19 August 2026<br>
+> GPT2 × grain × magnetic field × printmaking × aesthetic prompt × VOL.016<br>
+> Images originally sourced from *Chinese National Geography* · Xinjiang
 
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643">View the original post and full notes →</a></p>
 
@@ -61,6 +55,12 @@ The photograph supplies the facts. 016 decides which motion deserves to remain.
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568">View the supplementary post and English prompt →</a></p>
 
 These samples demonstrate the adaptability and aesthetic motive of 016; they do not turn the post's earlier canvas into a current default. The modes still follow the explicit pre-generation canvas and custom sizing logic below.
+
+> ONE SUBJECT · ONE MOTION · A LARGE FIELD OF AIR
+
+XXD Panel 016 is an image-generation skill for Codex and compatible agents. It does not place a photograph under a fixed filter. It reads the subject, posture, direction, light, distance, and unfinished relationship, then compresses that evidence into a restrained, tactile Riso or screen-printed composition.
+
+The photograph supplies the facts. 016 decides which motion deserves to remain.
 
 <!-- xxd-panel-benefit:start -->
 ## Quick fit check: is XXD Panel 016 right for you?
