@@ -11,6 +11,9 @@
   - `sample-03.jpg`
   - `sample-04.jpg`
   - `sample-05.png` — generated 16:9 left-right English-copy sample from the Chenxiang poster batch
+  - `sample-06.png` — generated 16:9 left-right English-copy sample from the Chenxiang poster batch
+  - `sample-07.png` — generated 16:9 left-right English-copy sample from the Chenxiang poster batch
+  - `sample-08.png` — generated 16:9 left-right English-copy sample from the Chenxiang poster batch
 
 ## Verified variant source
 
