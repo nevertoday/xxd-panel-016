@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# XXD Panel 016
+# XXD Panel 016｜Kinetic Woodblock Print
 
 ### Compress what truly happens in a photograph into one anchor and one field of motion
 

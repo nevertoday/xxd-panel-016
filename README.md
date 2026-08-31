@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# XXD Panel 016
+# XXD Panel 016｜动势版画
 
 ### 把照片里真正发生的关系，压缩成一枚锚点和一场运动
 
