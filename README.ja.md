@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/banner.svg" alt="XXD Panel 016 プロジェクトバナー" width="1200">
-</p>
-
 <div align="center">
 
 # XXD Panel 016｜動勢の版画
@@ -332,7 +328,6 @@ xxd-panel-016/
 ├── SKILL.md
 ├── README.md / README.en.md / README.ja.md / README.ko.md / README.ar.md
 ├── agents/openai.yaml
-├── assets/banner.svg
 ├── scripts/
 │   ├── compose_panel.py
 │   └── configured_imagegen.py
