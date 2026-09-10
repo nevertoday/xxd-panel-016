@@ -23,6 +23,8 @@
 
 ## 16:9 Left–Right Samples
 
+Four independent sources on complete 16:9 canvases: reality left, this Panel's design right, exact 50:50. English copy is generated from each photograph.
+
 <table>
   <tr>
     <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 016 Sample 5"></td>
@@ -36,7 +38,7 @@
 
 ## 3:4 Top–Bottom Samples
 
-These four works reuse the same four independent sources as the 16:9 set above, now regenerated as complete 3:4 top–bottom canvases. The original photograph remains above; the lower design follows Panel 016's original brief. English copy is generated only from each photograph's content, mood, or implication, and every result was individually reviewed.
+Four further independent sources, different from the 16:9 set, regenerated as complete 3:4 top–bottom canvases. The original photograph remains above; the lower design follows this Panel's original brief.
 
 <table>
   <tr>
@@ -48,43 +50,6 @@ These four works reuse the same four independent sources as the 16:9 set above, 
     <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 016 additional top-bottom sample 4"></td>
   </tr>
 </table>
-
-> New sample: the four photos from the corresponding Chenxiang poster group were used in filename order and rendered with this Panel's original brief as a 16:9 left-right composition with original-brief-generated English copy.
-
-> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 19 August 2026<br>
-> GPT2 × grain × magnetic field × printmaking × aesthetic prompt × VOL.016<br>
-> Images originally sourced from *Chinese National Geography* · Xinjiang
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643">View the original post and full notes →</a></p>
-
-### More 016 variations · philosophy and magnetic fields
-
-> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090727539052302568) · 21 August 2026<br>
-> GPT2 × philosophy × magnetic field × aesthetic prompt × VOL.016 supplement<br>
-> The same principle—one subject, one motion, one vast spatial relation—can produce entirely different fields and emotional registers across photographs.
-
-<table>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-01.jpg" alt="XXD Panel 016 additional sample 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-02.jpg" alt="XXD Panel 016 additional sample 2"></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-03.jpg" alt="XXD Panel 016 additional sample 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-04.jpg" alt="XXD Panel 016 additional sample 4"></a></td>
-  </tr>
-</table>
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568">View the supplementary post and English prompt →</a></p>
-
-These samples demonstrate the adaptability and aesthetic motive of 016; they do not turn the post's earlier canvas into a current default. The modes still follow the explicit pre-generation canvas and custom sizing logic below.
-
-> ONE SUBJECT · ONE MOTION · A LARGE FIELD OF AIR
-
-XXD Panel 016 is an image-generation skill for Codex and compatible agents. It does not place a photograph under a fixed filter. It reads the subject, posture, direction, light, distance, and unfinished relationship, then compresses that evidence into a restrained, tactile Riso or screen-printed composition.
-
-The photograph supplies the facts. 016 decides which motion deserves to remain.
-
-<!-- xxd-human-intro:start -->
 ## Where this Panel fits — and what it solves
 
 When a photograph needs to become a poster, cover, social asset, or wallpaper, the real design problem is rarely a simple change of style. The challenge is to redesign it while preserving identity, key relationships, mood, and recognisability.

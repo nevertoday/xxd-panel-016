@@ -23,6 +23,8 @@
 
 ## 16:9 左右双联样张
 
+以下四张为独立素材，完整 16:9 画布：左为现实摄影，右为本 Panel 设计转译，严格 50:50。文案由模型按原始提示词从当前照片智能生成。
+
 <table>
   <tr>
     <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 016 样张 5"></td>
@@ -36,7 +38,7 @@
 
 ## 3:4 上下双联样张
 
-以下四张复用上方 16:9 样张对应的四张独立素材，重新生成完整 3:4 上下双联画布；上部保留现实摄影，下部遵循 016 原始提示词重构。英文配字只从当前照片的内容、情绪或隐喻中生成，并已逐张复核。
+以下四张使用与 16:9 组完全不同的四张独立素材，重新生成完整 3:4 上下双联画布；上部保留现实摄影，下部遵循本 Panel 原始提示词重构。英文配字只从当前照片的内容、情绪或隐喻中生成。
 
 <table>
   <tr>
@@ -48,43 +50,6 @@
     <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 016 新增上下样张 4"></td>
   </tr>
 </table>
-
-> 本次新增样张：从对应陈翔海报分组按文件名顺序使用四张照片，使用本 Panel 原始提示词生成 16:9 左右双联，并由模型按原始文字逻辑生成英文文案。
-
-> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 2026-08-19<br>
-> GPT2 × 颗粒 × 磁场 × 版画 × 美学提示词 × VOL.016<br>
-> 图片来自《中国国家地理》· 新疆
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643">查看原推文与完整说明 →</a></p>
-
-### 更多 016 变体 · 哲学与磁场
-
-> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090727539052302568) · 2026-08-21<br>
-> GPT2 × 哲学 × 磁场 × 美学提示词 × VOL.016 补充<br>
-> 同一种“一个主体、一种运动、巨大空间关系”，在不同照片上可以产生完全不同的运动场与情绪。
-
-<table>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-01.jpg" alt="XXD Panel 016 补充样张 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-02.jpg" alt="XXD Panel 016 补充样张 2"></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-03.jpg" alt="XXD Panel 016 补充样张 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-04.jpg" alt="XXD Panel 016 补充样张 4"></a></td>
-  </tr>
-</table>
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568">查看补充推文与英文提示词 →</a></p>
-
-以上样张用于展示 016 的适应力与美学动机，不会把推文中的旧画幅写成当前 Skill 的默认尺寸；当前模式仍遵循下方的生成前明确画幅与自定义尺寸逻辑。
-
-> ONE SUBJECT · ONE MOTION · A LARGE FIELD OF AIR
-
-XXD Panel 016 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它不把照片套进固定滤镜，而是先阅读主体、姿态、方向、光线、距离和没有说完的关系，再把这些事实压缩成一张粗粝、克制、可追溯的 Riso／丝网印刷作品。
-
-照片提供事实。016 决定哪一种运动值得被留下。
-
-<!-- xxd-human-intro:start -->
 ## 适用场景与解决的问题
 
 当照片需要用于海报、封面、社交内容或壁纸时，真正需要解决的通常不是简单换一种画风，而是如何在重新设计之后，仍然保留主体身份、关键关系、情绪与辨识度。

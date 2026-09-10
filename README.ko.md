@@ -23,68 +23,33 @@
 
 ## 16:9 좌우 구성 예시
 
+서로 다른 원본 네 장으로 만든 16:9 완성 캔버스. 왼쪽은 실사, 오른쪽은 이 Panel 디자인, 정확히 50:50.
+
 <table>
   <tr>
-    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 016 예시 5"></td>
-    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 016 예시 6"></td>
+    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 016 Sample 5"></td>
+    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 016 Sample 6"></td>
   </tr>
   <tr>
-    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 016 예시 7"></td>
-    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 016 예시 8"></td>
+    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 016 Sample 7"></td>
+    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 016 Sample 8"></td>
   </tr>
 </table>
 
 ## 3:4 상하 구성 예시
 
-위 16:9 예시와 같은 네 개의 독립 소스를 완전한 3:4 상하 캔버스로 다시 생성했습니다. 위쪽은 현실 사진을 유지하고 아래쪽은 Panel 016의 원본 프롬프트에 따라 재구성합니다. 영어 문구는 각 사진의 내용·분위기·함의에서만 생성했으며 모든 결과를 개별 검수했습니다.
+16:9 세트와 다른 원본 네 장으로 만든 3:4 상하 완성 캔버스. 위는 실사, 아래는 디자인, 정확히 50:50.
 
 <table>
   <tr>
-    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 016 추가 상하 예시 1"></td>
-    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 016 추가 상하 예시 2"></td>
+    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 016 additional top-bottom sample 1"></td>
+    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 016 additional top-bottom sample 2"></td>
   </tr>
   <tr>
-    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 016 추가 상하 예시 3"></td>
-    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 016 추가 상하 예시 4"></td>
+    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 016 additional top-bottom sample 3"></td>
+    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 016 additional top-bottom sample 4"></td>
   </tr>
 </table>
-
-> 추가 예시: 천샹 포스터 그룹에서 해당 천샹 포스터 그룹의 네 장을 파일명 순서로 사용하고, 이 Panel의 원본 브리프에 따라 16:9 좌우 구성과 영어 자동 생성 문구로 제작했습니다.
-
-> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090127008349163643) · 2026년 8월 19일<br>
-> GPT2 × 입자 × 자기장 × 판화 × 미학 프롬프트 × VOL.016<br>
-> 원본 이미지는 《중국국가지리》의 신장 지역 사진에서 가져왔습니다.
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090127008349163643">원문 게시물과 전체 설명 보기 →</a></p>
-
-### 더 많은 016 변주 · 철학과 자기장
-
-> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090727539052302568) · 2026년 8월 21일<br>
-> GPT2 × 철학 × 자기장 × 미학 프롬프트 × VOL.016 보충<br>
-> 하나의 주제, 하나의 움직임, 하나의 광대한 공간 관계라는 동일한 원칙이 사진에 따라 전혀 다른 장과 감정의 결을 만들어 냅니다.
-
-<table>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-01.jpg" alt="XXD Panel 016 추가 예시 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-02.jpg" alt="XXD Panel 016 추가 예시 2"></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-03.jpg" alt="XXD Panel 016 추가 예시 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568"><img src="./assets/examples/variant-04.jpg" alt="XXD Panel 016 추가 예시 4"></a></td>
-  </tr>
-</table>
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090727539052302568">보충 게시물과 영문 프롬프트 보기 →</a></p>
-
-이 예시들은 016의 적응력과 미학적 동기를 보여 줄 뿐, 게시물에서 사용한 과거 캔버스를 현재의 기본 크기로 만들지 않습니다. 아래 네 모드는 계속해서 생성 전 화면비 확인 및 사용자 지정 크기 규칙을 따릅니다.
-
-> 하나의 주제 · 하나의 움직임 · 넓게 숨 쉬는 여백
-
-XXD Panel 016은 Codex와 호환 에이전트를 위한 이미지 생성 Skill입니다. 사진 위에 고정된 필터를 씌우지 않습니다. 피사체, 자세, 방향, 빛, 거리, 아직 끝나지 않은 관계를 읽고, 그 근거를 절제된 촉감의 리소그래프 또는 실크스크린 구성으로 압축합니다.
-
-사진은 사실을 제공하고, 016은 그중 어떤 움직임을 남길지 결정합니다.
-
-<!-- xxd-human-intro:start -->
 ## 적합한 상황과 해결하는 문제
 
 사진을 포스터, 표지, 소셜 콘텐츠 또는 배경화면으로 사용할 때 핵심 과제는 단순히 화풍을 바꾸는 것이 아닙니다. 다시 디자인한 뒤에도 대상의 정체성, 중요한 관계, 분위기와 식별성을 유지해야 합니다.
