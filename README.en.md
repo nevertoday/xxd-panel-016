@@ -106,6 +106,15 @@ You do not need to review every option first. Send your Agent an image and say:
 The samples above can help you confirm the visual direction. When you are ready, continue to [Get started](#get-started). Full modes, sizes, and parameters remain available in the expandable reference.
 <!-- xxd-human-intro:end -->
 
+## Usage tips
+
+- **Start with one clear photo:** choose a source whose subject, action, and relationships are easy to recognize before choosing the delivery format.
+- **Join the parameters in one sentence:** say “top-bottom / left-right / design-only + 16:9 / 3:4 / phone wallpaper”; you can also name desktop, tablet, or smartwatch sizes.
+- **State what must stay:** identify the people, objects, actions, relationships, and copy to preserve, while leaving room for the style to design the layout.
+- **Choose a text mode:** let the model write from the image, lock exact wording with `--text exact --copy`, or remove text completely with `--text none`.
+- **Clarify reality and design regions:** for top-bottom or left-right, say which region keeps the photograph and which region is redesigned; for design-only and wallpapers, say that the whole canvas is redesigned.
+- **Test one image before batching:** confirm mode, ratio, text, and language on one source, then reuse the settings for a folder; change one variable per iteration.
+
 ## Original prompt · Five languages
 
 [Open the unified translation directory](references/original-prompt/): [Simplified Chinese original](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -122,25 +131,6 @@ The Simplified Chinese file preserves Xiaoxiaodong's wording verbatim and remain
 | **How it respects your source** | Recognizable identity, relationships, structure, and supplied facts stay anchored. Styling reorganizes the visual language instead of replacing your content with an unrelated template. |
 | **Where you can use it** | Create top-bottom, left-right, design-only, and four-device wallpaper outputs in multiple ratios or exact sizes. Delivery changes; the Panel's style identity does not get diluted. |
 <!-- xxd-panel-benefit:end -->
-
-## How it turns your source into a distinctive result
-
-Generic style transfer often makes unrelated photographs look like the same decorative poster. A real subject becomes a stock sun, wave, ring, or geometric icon; the palette stops belonging to the source; the title could be reused on any image.
-
-016 works in the opposite direction. It locks one small but recognisable visual anchor, then derives exactly one motion logic from posture, light, or spatial relation. The result may be minimal, but it must retain evidence that could only have come from this photograph.
-
-```text
-source photo → lock visual facts → read relation and subtext → choose one motion → generate print → compose and inspect
-```
-
-## What makes the finished style recognizable
-
-- **One anchor:** a small recognisable core, with no competing second subject.
-- **One motion:** falling, rising, flowing, radiating, or ripple/echo—never a stack of effects.
-- **Active void:** normally 60%–78% open paper, so stillness and movement can coexist.
-- **Source-derived colour:** one dominant source colour, warm paper, and optional black; 2–3 colours in total.
-- **Physical print character:** halftone, fibre, dry ink, grain, and slight misregistration act as structure rather than decoration.
-- **Type as space:** title and microcopy follow motion, axes, and void instead of sitting inside an advertising box.
 
 <details>
 <summary><strong>Full capabilities and parameters (open when needed)</strong></summary>
