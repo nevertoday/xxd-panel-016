@@ -1,0 +1,114 @@
+{
+  "skill_description": "XXD Panel 016｜Kinetic Woodblock Print: compresses what truly happens in a photo into one small, restrained visual anchor in wide paper space surrounded by a single field of motion — falling, rising, flowing, radiating or rippling — drawn with many fine lines, broken trails, coarse halftone dots and grain that are densest near the subject and break up into the empty space, in a strict two-to-three colour print of one vivid main colour from the photo, warm white or ivory paper and a little black, with screenprint and Risograph grain, uneven ink and slight misregistration, plus a very short title and two to four tiny groups of notes or numbers that follow the motion. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-016 or asks for kinetic minimal prints, Risograph motion posters or tiny-subject surreal screenprints from a photo.",
+  "short_description": "动势版画：把照片压缩成一个极小锚点和一场由细线、网点组成的运动",
+  "zh-CN": {
+    "name": "动势版画",
+    "tagline": "把照片里真正发生的事，压缩成一个极小的主体和围绕它的一场运动。",
+    "look": "主体只留最关键的轮廓和姿态，通常很小，放在大片留白里；照片里的动作、方向或光影变成围绕它的一个动态场，只选一种运动：下坠、上升、朝一个方向流动、由核心向外扩散，或者一圈圈波纹回响。动态场由大量细线、断裂轨迹、粗网点和颗粒组成，靠近主体最密，向边缘渐渐稀疏、破碎，消失在留白里。颜色是严格的两到三色：从照片里提一个最有精气神的主色，配暖白或象牙纸色和少量黑，带丝网、Risograph 的粗颗粒、不均匀油墨和轻微套印偏差。文字是一个极短标题加两到四组微型注释，沿运动轨迹、地平线或主体轴线排列。",
+    "traits": [
+      "单一主体",
+      "单一运动",
+      "巨大空气感",
+      "关系",
+      "极简"
+    ],
+    "good": [
+      "有明确动作或方向的照片：跳水的人、起飞的鸟、雨中撑伞的人、落叶",
+      "有光或风的画面：逆光里的人、风中的草、一道瀑布",
+      "一个小主体对着大空间：雪地上的一辆车、天空里的风筝"
+    ],
+    "poor": [
+      "完全静止、看不出动作或方向的照片，动态场会无从生长",
+      "需要主体放大、看清细节的需求",
+      "想要光滑 CG、3D、真实光效或多种特效叠加的效果"
+    ]
+  },
+  "en": {
+    "name": "Kinetic Woodblock Print",
+    "tagline": "Compresses what really happens in a photo into one tiny subject and a single field of motion around it.",
+    "look": "The subject keeps only its key outline and pose, usually small and set in wide empty paper; the action, direction or light in the photo becomes one field of motion around it, chosen from a single kind of movement: falling, rising, flowing one way, spreading out from the centre, or rippling like an echo. The field is made of many fine lines, broken trails, coarse halftone dots and grain, densest next to the subject and thinning, breaking up and vanishing into the whitespace toward the edges. Colour is a strict two or three: one spirited main colour from the photo, warm white or ivory paper and a little black, with the coarse grain of screenprint and Risograph, uneven ink and slight misregistration. Text is a very short title and two to four tiny groups of notes that run along the motion, the horizon or the subject's axis.",
+    "traits": [
+      "Single subject",
+      "Single motion",
+      "Vast air",
+      "Relationship",
+      "Minimal"
+    ],
+    "good": [
+      "Photos with a clear action or direction: a diver, a bird taking off, someone with an umbrella in the rain, a falling leaf",
+      "Scenes with light or wind: a backlit figure, grass in the wind, a waterfall",
+      "One small subject facing a big space: a car on a snowfield, a kite in the sky"
+    ],
+    "poor": [
+      "Completely still photos with no action or direction, which give the motion field nothing to grow from",
+      "Requests to show the subject large with readable detail",
+      "Requests for smooth CG, 3D, realistic light effects or stacked visual effects"
+    ]
+  },
+  "ja": {
+    "name": "動勢の版画",
+    "tagline": "写真の中で本当に起きていることを、ごく小さな主役と、そのまわりの一つの動きにまとめます。",
+    "look": "主役は要となる輪郭と姿勢だけを残し、たいていは小さく、広い余白に置きます。写真の動き、方向、光は、そのまわりの一つの動きの場になり、動きは一種類だけを選びます。落ちる、のぼる、一方向に流れる、中心から外へ広がる、波紋のようにこだまする、のいずれかです。場はたくさんの細い線、途切れた軌跡、粗い網点、粒子でできていて、主役の近くがいちばん密で、縁へ向かうほどまばらに砕け、余白に消えていきます。色は厳密に二〜三色で、写真からいちばん生気のある主色を一つ取り、温かい白やアイボリーの紙色と少しの黒を合わせ、シルクスクリーンやリソグラフの粗い粒子、むらのあるインク、わずかな版ずれを残します。文字はごく短いタイトルと、二〜四組の小さな注記で、動きの軌跡、地平線、主役の軸に沿って並べます。",
+    "traits": [
+      "一つの主役",
+      "一つの動き",
+      "広大な空気感",
+      "関係",
+      "ミニマル"
+    ],
+    "good": [
+      "動きや方向がはっきりした写真：飛び込む人、飛び立つ鳥、雨の中で傘をさす人、落ち葉",
+      "光や風のある場面：逆光の人、風になびく草、滝",
+      "小さな主役と大きな空間：雪原の一台の車、空に浮かぶ凧"
+    ],
+    "poor": [
+      "動きも方向もまったくない静止した写真（動きの場が生まれません）",
+      "主役を大きく見せて細部を読ませたい場合",
+      "なめらかな CG、3D、リアルな光の効果、いくつもの効果の重ねを求める場合"
+    ]
+  },
+  "ko": {
+    "name": "운동감 판화",
+    "tagline": "사진에서 실제로 일어나는 일을 아주 작은 주인공 하나와 그를 둘러싼 하나의 움직임으로 압축합니다.",
+    "look": "주인공은 핵심 윤곽과 자세만 남기고 대개 작게, 넓은 여백 속에 둡니다. 사진 속 동작, 방향, 빛은 그를 둘러싼 하나의 운동장이 되며, 움직임은 한 가지만 고릅니다. 떨어지기, 솟아오르기, 한 방향으로 흐르기, 중심에서 바깥으로 퍼지기, 물결처럼 울리기 중 하나입니다. 이 장은 많은 가는 선, 끊긴 궤적, 거친 망점, 입자로 이루어지며, 주인공 가까이가 가장 촘촘하고 가장자리로 갈수록 성기게 부서져 여백 속으로 사라집니다. 색은 엄격하게 두세 가지로, 사진에서 가장 생기 있는 주색 하나에 따뜻한 흰색이나 아이보리 종이색, 약간의 검정을 더하고, 실크스크린과 리소그래프의 거친 입자, 고르지 않은 잉크, 약간의 판 어긋남을 남깁니다. 글자는 아주 짧은 제목과 작은 메모 두세 묶음에서 네 묶음으로, 움직임의 궤적, 지평선, 주인공의 축을 따라 놓입니다.",
+    "traits": [
+      "단일 주인공",
+      "단일 움직임",
+      "거대한 공기감",
+      "관계",
+      "미니멀"
+    ],
+    "good": [
+      "동작이나 방향이 분명한 사진: 다이빙하는 사람, 날아오르는 새, 빗속에 우산 쓴 사람, 떨어지는 잎",
+      "빛이나 바람이 있는 장면: 역광 속 사람, 바람에 눕는 풀, 폭포",
+      "작은 주인공과 큰 공간: 설원 위 자동차 한 대, 하늘의 연"
+    ],
+    "poor": [
+      "동작도 방향도 전혀 없는 정지된 사진(운동장이 자라날 곳이 없습니다)",
+      "주인공을 크게 보여 주고 세부를 읽히고 싶은 경우",
+      "매끈한 CG, 3D, 사실적인 빛 효과, 여러 효과를 겹친 결과를 원하는 경우"
+    ]
+  },
+  "ar": {
+    "name": "مطبوعة خشبية ديناميكية",
+    "tagline": "يختصر ما يحدث فعلاً في الصورة في عنصر صغير جداً وحقل حركة واحد يحيط به.",
+    "look": "لا يبقى من العنصر إلا حدوده الأساسية ووضعيته، ويكون غالباً صغيراً وسط ورق واسع فارغ، وتتحول الحركة أو الاتجاه أو الضوء في الصورة إلى حقل حركة واحد حوله، بنوع واحد من الحركة: سقوط أو صعود أو انسياب في اتجاه واحد أو انتشار من المركز أو تموّجات كالصدى. يتكوّن الحقل من خطوط رفيعة كثيرة ومسارات منقطعة ونقاط شبكية خشنة وحبيبات، أكثف ما تكون قرب العنصر، ثم تتفرق وتتكسر وتتلاشى في الفراغ نحو الأطراف. الألوان اثنان أو ثلاثة بصرامة: لون رئيسي حيوي واحد من الصورة، وورق أبيض دافئ أو عاجي، وقليل من الأسود، مع حبيبات الطباعة الحريرية والريزوغراف الخشنة والحبر غير المتساوي وانزياح طباعي خفيف. النص عنوان قصير جداً ومن مجموعتين إلى أربع مجموعات صغيرة من الملاحظات، تسير مع الحركة أو خط الأفق أو محور العنصر.",
+    "traits": [
+      "عنصر واحد",
+      "حركة واحدة",
+      "هواء شاسع",
+      "علاقة",
+      "بساطة"
+    ],
+    "good": [
+      "صور فيها حركة أو اتجاه واضح: شخص يغطس، طائر يُقلع، شخص بمظلة تحت المطر، ورقة تسقط",
+      "مشاهد فيها ضوء أو ريح: شخص في ضوء خلفي، عشب في الريح، شلال",
+      "عنصر صغير أمام فضاء كبير: سيارة على حقل ثلج، طائرة ورقية في السماء"
+    ],
+    "poor": [
+      "صور ساكنة تماماً بلا حركة ولا اتجاه، فلا يجد حقل الحركة ما ينمو منه",
+      "طلب إظهار العنصر كبيراً بتفاصيل مقروءة",
+      "طلب رسوم حاسوبية ملساء أو ثلاثية الأبعاد أو مؤثرات ضوئية واقعية أو تراكم مؤثرات"
+    ]
+  }
+}
